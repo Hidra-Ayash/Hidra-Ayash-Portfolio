@@ -1,3 +1,12 @@
+### Who I'M ?
+Hello , I'm Hidra Ayash FromHoms , Syria
+
+I’m studying in Al Baath University at the College of Software Engineering.
+
+I have extensive experience in developing dynamic and responsive web applications usingReact.js
+
+Experienced in managing application state using tools like Redux and Context API to createseamless user experiences.
+--------------------------------------------------------------------------------------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +77,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# Hidra-Ayash-Portfolio" 
