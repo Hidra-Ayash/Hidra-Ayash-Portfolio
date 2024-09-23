@@ -1,0 +1,685 @@
+.particles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.component {
+  position: relative;
+  z-index: 2;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  top: 0;
+  /*  */
+}
+.notFound {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: #ffffff;
+  height: 100svh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.not-found {
+  height: 100svh;
+  background-color: #ffffff;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.btn-dialog {
+  color: rgb(255, 0, 166) !important;
+}
+.dialog {
+  background-color: rgba(135, 239, 112, 0.821);
+  color: black !important;
+  font-weight: 900 !important;
+}
+.resume-btn:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+.component-Home {
+  width: 100vw;
+  position: relative;
+  z-index: 2;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.btn-over:hover {
+  background-color: rgba(163, 159, 159, 0.883);
+  transition: 0.5s;
+}
+.circ-load {
+  height: 100svh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: #5b555aa0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+/* details */
+.component-details {
+  position: relative;
+  z-index: 2;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100vw;
+}
+.grid-one-details {
+  /* height: 50svh; */
+  color: #ffffff;
+}
+.grid-two-details {
+  /* height: 50svh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.typ1-details-one {
+  font-weight: 800;
+  text-align: center;
+}
+.typ1-details-two {
+  text-align: start;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+/* =====details===== */
+@font-face {
+  font-family: "Facinatel";
+  src: url("./Fonts/FascinateInline-Regular.ttf");
+}
+@font-face {
+  font-family: "Playpen";
+  src: url("./Fonts/Playpen_Sans/PlaypenSans-VariableFont_wght.ttf");
+}
+.typ-projects {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
+  color: white;
+  text-shadow: 0px 5px 17px #ee92f168;
+}
+
+/* الشاشات الكبيرة */
+@media (min-width: 1200px) {
+  .container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .component-details {
+    width: 100vw;
+    position: relative;
+    z-index: 2;
+    /* height: 100svh; */
+    display: grid;
+    justify-content: start;
+    align-items: center;
+  }
+  .container-two {
+    /* height: 100vh; */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-one-details {
+    width: 50vw;
+    height: 40svh;
+    color: #ffffff;
+  }
+
+  .grid-two-details {
+    width: 50vw;
+    /* height: 100svb; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+  }
+  .typ1-details-one {
+    text-align: center;
+    width: 50vw;
+    font-size: 40px !important;
+    font-weight: 800;
+  }
+  .typ-projects {
+    text-align: center;
+    font-size: 45px !important;
+  }
+  .typ1-details-one-about {
+    width: 40vw;
+    font-size: 40px !important;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+  }
+  .typ1-details-two {
+    text-align: start;
+    color: #ffffff;
+    width: 50vw;
+    font-size: 25px !important;
+    padding: 10px;
+  }
+  .typ1-details-two-about {
+    text-align: start;
+    color: #ffffff;
+    width: 50vw;
+    font-size: 25px !important;
+    padding: 10px;
+  }
+  /* ===details=== */
+  .grid-one {
+    width: 100vw;
+    /* height: 100svh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px !important;
+  }
+
+  .grid-two {
+    height: 100svh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Change */
+  .typ1 {
+    font-size: 50px;
+    width: 36vw;
+  }
+  .lottie-one {
+    width: 30vw;
+  }
+  .box-style {
+    & > :not(style) {
+      margin: 1rem;
+      width: 100%;
+      width: 250px !important;
+      height: 150px !important;
+      overflow-x: hidden;
+    }
+  }
+}
+/* ------------------------------------------ */
+@media (min-width: 714px) and (max-width: 1199px) {
+  /* Change */
+  .typ1 {
+    font-size: 40px;
+    width: 40vw;
+  }
+  .container {
+    /* height: 100vh; */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-one {
+    width: 100vw;
+    height: 100svh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+  }
+  /* Change */
+  .lottie-one {
+    width: 35vw;
+  }
+  .typ-projects {
+    text-align: center;
+    font-size: 40px !important;
+  }
+  .grid-two {
+    height: 100svh;
+    width: 100vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  /* details */
+  .component-details {
+    /* width: 100vw; */
+    position: relative;
+    z-index: 2;
+    /* height: 100svh; */
+    display: grid;
+    justify-content: start;
+    align-items: center;
+  }
+  /* Change */
+  .container-two {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-style {
+    height: fit-content;
+  }
+  .grid-one-details {
+    width: 50vw;
+    height: 25svh;
+    color: #ffffff;
+  }
+
+  .grid-two-details {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+  }
+  .typ1-details-one {
+    font-weight: 800;
+    text-align: center;
+    width: 50vw;
+    font-size: 25px !important;
+  }
+  .typ1-details-one-about {
+    margin-top: 10px;
+    width: 40vw;
+    font-size: 25px !important;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+  }
+  .typ1-details-two {
+    text-align: start;
+    color: #ffffff;
+    font-weight: 900;
+    width: 50vw;
+    font-size: 24px !important;
+    padding: 10px;
+  }
+  .typ1-details-two-about {
+    text-align: start;
+    color: #ffffff;
+    width: 50vw;
+    font-size: 20px !important;
+    padding: 10px;
+  }
+  .hello-lottie {
+    width: 85px !important;
+  }
+
+  /* ===details=== */
+}
+/* الشاشات الصغيرة */
+@media (max-width: 714px) {
+  .grid-style {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem !important;
+  }
+  .typ-projects {
+    text-align: center;
+    font-size: 35px !important;
+  }
+  .grid-one {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+  /* Change */
+
+  .typ1 {
+    font-size: 45px;
+    width: 70vw;
+  }
+  /* Change */
+  .lottie-one {
+    width: 60vw;
+  }
+  .grid-two {
+    flex-direction: column;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hello-lottie {
+    width: 70px !important;
+  }
+  /* details */
+
+  .component-details {
+    /* width: 100vw; */
+    position: relative;
+    z-index: 2;
+    /* height: 100svh; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  .container-two {
+    height: 90svh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-one-details {
+    width: 100vw;
+    color: #ffffff;
+  }
+
+  .grid-two-details {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  /* Changes */
+  .typ1-details-one {
+    text-align: center;
+    width: 100vw;
+    font-size: 20px !important;
+    font-weight: 800;
+    margin-top: 20px !important;
+  }
+  .typ1-details-one-about {
+    margin-top: 25px !important;
+    width: 100vw;
+    font-size: 22px !important;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+  }
+  /* Changes */
+  .typ1-details-two {
+    text-align: start;
+    color: #ffffff;
+    width: 90vw;
+    font-size: 19px !important;
+    padding: 18px;
+    background-attachment: fixed;
+  }
+  .typ1-details-two-about {
+    color: #ffffff;
+    width: 100vw;
+    font-size: 19px !important;
+    padding: 17px;
+    /* height: 40svh; */
+  }
+  /* ===details=== */
+}
+
+/* الشاشات الصغيرة جدًا */
+@media (max-width: 385px) {
+  .typ1 {
+    font-size: 35px;
+    width: 65vw;
+  }
+  .typ-projects {
+    text-align: center;
+    font-size: 25px !important;
+  }
+  /* Change */
+  .lottie-one {
+    width: 70vw;
+    display: flex;
+    text-align: start;
+  }
+  .grid-style {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.03rem !important;
+  }
+  .grid-one {
+    width: 100vw;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 50vh;
+  }
+  .hello-lottie {
+    width: 50px !important;
+  }
+  .grid-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 40svh;
+  } /* details */
+
+  .component-details {
+    /* width: 100vw; */
+    position: relative;
+    z-index: 2;
+    /* height: 100svh; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  .container-two {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-one-details {
+    width: 100vw;
+    color: #ffffff;
+  }
+  /* Change */
+  .grid-two-details {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .typ1-details-one {
+    text-align: center;
+    width: 100vw;
+    font-size: 15px !important;
+    font-weight: 800;
+  }
+  .typ1-details-one-about {
+    margin-top: 25px !important;
+    width: 100vw;
+    font-size: 18px !important;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+  }
+  /* Change */
+  .typ1-details-two {
+    text-align: start;
+    color: #ffffff;
+    width: 100vw;
+    font-size: 16.9px !important;
+    padding: 12px;
+  }
+  .typ1-details-two-about {
+    text-align: start;
+    color: #ffffff;
+    width: 100vw;
+    font-size: 15px !important;
+    padding: 10px;
+  }
+}
+
+.footer {
+  position: relative;
+  width: 100vw;
+  background-color: rgba(28, 0, 27, 0.775);
+  height: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 800;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  bottom: 0;
+}
+
+.g-one,
+.g-two,
+.g-three {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #ffffff;
+  height: auto;
+  font-size: 11px;
+}
+
+.g-three {
+  font-size: 20px;
+}
+@media (max-width: 270px) {
+  .typ-projects {
+    text-align: center;
+    font-size: 20px !important;
+  }
+}
+
+/* استعلام الوسائط للشاشات الكبيرة */
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .g-one,
+  .g-two,
+  .g-three {
+    width: auto;
+    font-size: 19px;
+  }
+}
+/* Projects Comp*/
+.projects-style {
+  position: relative;
+  z-index: 2;
+  overflow-x: hidden;
+  padding: 20px;
+}
+.projects-style h1 {
+  text-align: center;
+}
+.project-component {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  flex-wrap: wrap;
+}
+.card-project {
+  background-color: rgba(80, 72, 80, 0.426) !important;
+  color: white !important;
+  text-align: center !important;
+  border: 0.2px rgba(129, 119, 129, 0) solid !important;
+  box-shadow: 0px 0px 10px rgba(99, 98, 99, 0.402) !important;
+  cursor: pointer;
+}
+.card-project:hover {
+  box-shadow: 0px 0px 13px rgba(220, 196, 220, 0.62) !important;
+  transition: 0.5s;
+}
+.card-action {
+  display: flex;
+  justify-content: center;
+}
+.icon-btn:hover {
+  background-color: rgba(80, 72, 80, 0) !important;
+}
+.card-typ {
+  color: white !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 800;
+}
+.card-btn {
+  background-color: rgb(144, 8, 144) !important;
+  color: white !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.component-skills {
+  position: relative;
+  z-index: 2;
+  width: 100vw;
+  height: 100%;
+}
+.paper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9e12a05f !important;
+  border: 2px #9e12a05f solid;
+  overflow-x: hidden;
+  box-shadow: 0px 5px 10px rgba(237, 43, 234, 0.749) !important;
+  cursor: pointer;
+}
+.paper:hover {
+  background-color: #841386fc !important;
+  transition: 0.5s;
+}
+.skills-typ {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 45px !important;
+}
+.box-style {
+  & > :not(style) {
+    margin: 1rem;
+    width: 100%;
+    height: auto;
+    width: 100px;
+    height: 110px;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-typ {
+    font-size: 5vw !important; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-typ {
+    font-size: 5vw !important; /* Further adjust font size for very small screens */
+  }
+}
