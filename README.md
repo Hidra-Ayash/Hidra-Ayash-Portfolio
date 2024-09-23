@@ -1,11 +1,12 @@
 ### Who I'M ?
-Hello , I'm Hidra Ayash FromHoms , Syria
+Hello , I'm Hidra Ayash , I'm A Frontend Developer, From Homs , Syria
 
 I’m studying in Al Baath University at the College of Software Engineering.
 
 I have extensive experience in developing dynamic and responsive web applications usingReact.js
 
 Experienced in managing application state using tools like Redux and Context API to createseamless user experiences.
+
 --------------------------------------------------------------------------------------------------------------------
 # Getting Started with Create React App
 
