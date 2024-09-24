@@ -54,22 +54,33 @@
   background-color: rgba(163, 159, 159, 0.883);
   transition: 0.5s;
 }
-.circ-load {
-  height: 100svh;
-  width: 100vw;
+/* .circ-load {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+   width: 100vw; 
+   height:100vh;
+} */
+.circ-load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh; /* تأكد من استخدام 100vh */
+  width: 100vw; /* تأكد من استخدام 100vw */
+  position: absolute; /* أضف هذا السطر */
+  top: 0; /* أضف هذا السطر */
+  left: 0; /* أضف هذا السطر */
 }
+
 body {
   background-color: #5b555aa0;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
-  overflow-y: scroll;
   overflow-x: hidden;
 }
 /* details */
@@ -220,6 +231,21 @@ body {
       height: 150px !important;
       overflow-x: hidden;
     }
+  }
+}
+@media (max-width: 600px) {
+  .box-style > :not(style) {
+    margin: 10px;
+    width: 90px;
+    height: 110px;
+  }
+}
+
+@media (max-width: 400px) {
+  .box-style > :not(style) {
+    margin: 5px;
+    width: 70px;
+    height: 90px;
   }
 }
 /* ------------------------------------------ */
@@ -527,8 +553,8 @@ body {
     text-align: start;
     color: #ffffff;
     width: 100vw;
-    font-size: 16.9px !important;
-    padding: 12px;
+    font-size: 16px !important;
+    padding: 10px;
   }
   .typ1-details-two-about {
     text-align: start;
@@ -644,14 +670,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #9e12a05f !important;
+  background-color: #ef16f345 !important;
   border: 2px #9e12a05f solid;
   overflow-x: hidden;
-  box-shadow: 0px 5px 10px rgba(237, 43, 234, 0.749) !important;
+  box-shadow: 0px 5px 10px rgba(186, 67, 184, 0.271) !important;
   cursor: pointer;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 .paper:hover {
-  background-color: #841386fc !important;
+  background-color: #610363fc !important;
   transition: 0.5s;
 }
 .skills-typ {
@@ -663,11 +691,11 @@ body {
 }
 .box-style {
   & > :not(style) {
-    margin: 1rem;
+    margin: 15px;
     width: 100%;
     height: auto;
-    width: 100px;
-    height: 110px;
+    width: 110px;
+    height: 130px;
     overflow-x: hidden;
   }
 }

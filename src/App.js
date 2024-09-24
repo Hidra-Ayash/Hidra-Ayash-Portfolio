@@ -7,7 +7,7 @@ import About from "./files/About";
 //Router
 import { Routes, BrowserRouter, Route } from "react-router-dom";
 //External Import
-import CircularProgressCountUp from "./files/LoadProgress";
+import LoadProgress from "./files/LoadProgress";
 import Footer from "./files/Footer";
 import Projects from "./files/Projects";
 import Alert from "./files/Alert";
@@ -20,7 +20,7 @@ export default function App() {
     }, 1500);
   }, []);
   if (load) {
-    return <CircularProgressCountUp />;
+    return <LoadProgress />;
   }
   return (
     <>

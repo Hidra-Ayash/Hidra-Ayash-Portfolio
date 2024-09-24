@@ -1,15 +1,11 @@
-import * as React from "react";
-import Box from "@mui/joy/Box";
+import React from "react";
+import cirularAnimation from "../animation/loading.json";
 import Lottie from "lottie-react";
-import animationLoad from "../animation/loading.json";
-export default function CircularProgressChildren() {
+import "../App.css";
+export default function LoadProgress() {
   return (
     <div className="circ-load">
-      <Box
-        sx={{ display: "flex", gap: 2, alignItems: "center", flexWrap: "wrap" }}
-      >
-        <Lottie animationData={animationLoad} />
-      </Box>
+      <Lottie animationData={cirularAnimation} />
     </div>
   );
 }
