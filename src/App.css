@@ -588,10 +588,13 @@ body {
   color: #ffffff;
   height: auto;
   font-size: 11px;
-}
+ }
 
 .g-three {
   font-size: 20px;
+   display: flex;
+  justify-content: center !important;
+  align-items: center;
 }
 @media (max-width: 270px) {
   .typ-projects {
@@ -607,11 +610,18 @@ body {
     justify-content: space-around;
   }
 
-  .g-one,
+  
   .g-two,
   .g-three {
     width: auto;
     font-size: 19px;
+
+  }
+  .g-one{
+    font-size: 15px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
   }
 }
 /* Projects Comp*/

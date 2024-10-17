@@ -11,7 +11,7 @@ export default function Footer() {
     <div className="footer">
       <Grid container spacing={1}>
         <Grid className="g-one" item xs={12} md={4}>
-          <h4>Designed and Developed by Engineer Hidra Ayash</h4>
+          <h3>Designed and Developed by Engineer Hidra Ayash</h3>
         </Grid>
         <Grid className="g-two" item xs={12} md={4}>
           <h3>Copyright © 2024 | 2025 HA</h3>

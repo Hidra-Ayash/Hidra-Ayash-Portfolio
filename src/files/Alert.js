@@ -42,7 +42,7 @@ export default function Alert({ open, closeOpen }) {
             No
           </Button>
           <Button
-            href="https://cvmaker.getyourcv.net/storage/cvs/66f1645faf31a1.pdf"
+            href="https://drive.google.com/file/d/1WBS-E5C4jhygXANjFv7eQK_uDXXpzmZb/view?usp=drivesdk"
             className="btn-dialog"
             onClick={handleClose}
             autoFocus

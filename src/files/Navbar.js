@@ -16,7 +16,7 @@ import "../App.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import Alert from "./Alert";
-import myPhoto from "./photo_2024-08-19_12-49-30.jpg";
+import myPhoto from "./photo_2024-10-17_21-30-52.jpg";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import GitHubIcon from "@mui/icons-material/GitHub";
